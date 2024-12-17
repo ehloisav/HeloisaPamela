@@ -1,0 +1,221 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+header{
+    background:   #2ed573;
+    height: 10vh;
+}
+.main{
+   background: #ff6b81 ;
+
+}
+footer{
+    background: #6ab04c;
+    clear: both; /*Preventino*/
+    height: 40vh;
+
+}
+.logo{
+    width: 20vw;
+    height: 10vh;
+    background:#c07bd1 ;
+    float: left; /*flutuar para esquerda*/  
+}
+.logo > img{ 
+    width: 23vw;
+    height: 10vh;
+}
+.menu{
+    float: right;  /*futuar para direita*/
+    display: flex;
+
+    justify-content: center;
+    align-content: center;
+    /*gap: 5px;*/
+}
+.menu > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-weight: bolder;
+    font-size: 1rem;
+    background:#6ab04c ;
+    color: white;
+    width: 9.5vw;
+    text-align: center;
+    border: dotted 1px white;
+    height: 10vh;
+     cursor: auto;
+     transition: 0.3s;
+}
+.menu > div:hover{
+    background: #c07bd1;
+    font-size: 1.3rem;
+    transition: 0.3s;
+
+}
+.banner{
+    width: 100vw;
+    height: 90vh;
+    background: rgb(194, 141, 214);
+
+    background-image: url("tutti_frutti.png"); /*imagem com plano de fundo*/
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+
+  
+}
+.banner2{
+   width: 80px   ;
+   height: 50px;
+   margin-right: 5px;
+   background-image: url("preto.jpg"); 
+   
+}
+.sobre{
+    display: flex;
+    color: white;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.Txt{
+    width: 60vw;
+    height: 400px;
+   font-size: 23.5px;
+   text-align: center;
+  
+}
+
+.Img{
+    width: 30vw;
+    height: 55px;
+  
+  
+}
+.Sobre {
+    text-align: center;
+    background:#f8a5c2;
+    color: white;
+   
+}
+ #img2{
+    align-items: center;
+ }
+ h1{
+    text-align: center;
+    font-size: 60px;
+
+ }
+ [class^="bola"] {
+    display: flex;
+    background-repeat: no-repeat;
+    margin-bottom: 1rem;
+    align-items: center;
+}
+.bola1 {
+    position: relative;
+    border-radius: 50%;
+    display: inline-block;
+    height: 450px;
+    width: 450px;
+    background-color: #6ab04c;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    font-size: 25px;
+    color: white;
+    margin-top: auto;
+}    
+.bola2 {
+    border-radius: 50%;
+    display: inline-block;
+    height: 400px;
+    width: 400px;
+    background-color: #6ab04c;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    font-size: 25px;
+    color: white;
+}
+.bola3 {
+    border-radius: 50%;
+    display: inline-block;
+    height: 450px;
+    width: 450px;
+    background-color: #6ab04c;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    font-size: 25px;
+    color: white;
+    margin-top: 15px;
+}
+.titulo{
+    color: white;
+    margin-top: 20px;
+}
+.cidade{
+    margin-top: 15px;
+    display: flex;
+}
+.m1{
+    flex: 1;
+    margin-left: 250px;
+
+}
+.m2{
+    flex: 1;
+    text-align: center;
+}
+.m3{
+    flex: 1;
+    text-align: center;
+    margin-right: 300px;
+  
+}
+.titlo{
+    color: white;
+}
+.personagens{
+    margin-top: 15px;
+    width: 100vw;
+    height: 80vh;
+    /* border: 1px solid black; */
+
+    display: flex;
+	flex-direction:row;
+    flex-wrap:wrap;
+    justify-content: center;
+}
+.personagens > div > img{
+    margin: 4px;
+}
+.title{
+    color: white;
+}
+.pai{
+    width: 100%;
+    height: 300px;
+    padding: 3px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+}
+.dad{
+    margin-top: 25px;
+    width: 100%;
+    height: 300px;
+    padding: 3px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 25px;
+}
